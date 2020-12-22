@@ -18,7 +18,7 @@ public class Frame extends JFrame {
         this(null, 0, 0, 500, 300, JFrame.HIDE_ON_CLOSE);
 
         /* zentrieren */
-        centre();
+        center();
     }
 
     /**
@@ -46,7 +46,7 @@ public class Frame extends JFrame {
     /**
      * Zentriert das Fenster
      */
-    public void centre() {
+    public void center() {
         /* Größe des Bildes ermitteln */
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
 

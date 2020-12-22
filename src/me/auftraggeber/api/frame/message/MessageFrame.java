@@ -3,7 +3,6 @@ package me.auftraggeber.api.frame.message;
 import me.auftraggeber.api.frame.Frame;
 
 import javax.swing.*;
-import java.awt.*;
 
 /**
  * Fenster für eine Nachricht.
@@ -26,7 +25,7 @@ public class MessageFrame extends Frame {
         /* Frame erstellen */
         super(title, 0, 0, 500, 190, JFrame.DISPOSE_ON_CLOSE);
         this.actions = actions;
-        centre();
+        center();
 
         /* Text hinzufügen */
         text = new JLabel(message, JLabel.LEFT);
